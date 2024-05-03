@@ -1,0 +1,16 @@
+{
+  "Products": {
+    "category1": {
+      "name": "kategori 1"
+    },
+    "category2": {
+      "name": "kategori 2"
+    },
+    "category3": {
+      "name": "kategori 3"
+    },
+    "category4": {
+      "name": "kategori 4"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "Products": {
+    "category1": {
+      "name": "الفئة 1"
+    },
+    "category2": {
+      "name": "الفئة 2"
+    },
+    "category3": {
+      "name": "الفئة 3"
+    },
+    "category4": {
+      "name": "الفئة 4"
+    }
+  }
+}
