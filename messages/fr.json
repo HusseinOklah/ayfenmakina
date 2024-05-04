@@ -1,16 +1,40 @@
 {
-  "Products": {
-    "category1": {
-      "name": "catégorie 1"
-    },
-    "category2": {
-      "name": "catégorie 2"
-    },
-    "category3": {
-      "name": "catégorie 3"
-    },
-    "category4": {
-      "name": "catégorie 4"
+  "header": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "portfolio": "Portefeuille",
+    "contact": "Contact"
+  },
+  "home": {
+    "welcome": "Bienvenue sur notre site Web !",
+    "features": "Nos Fonctionnalités",
+    "pricing": "Tarification",
+    "testimonial": "Témoignages"
+  },
+  "about": {
+    "title": "À Propos de Nous",
+    "description": "Apprenez-en plus sur notre entreprise."
+  },
+  "services": {
+    "title": "Nos Services",
+    "service1": "Service 1",
+    "service2": "Service 2",
+    "service3": "Service 3"
+  },
+  "portfolio": {
+    "title": "Notre Portefeuille",
+    "project1": "Projet 1",
+    "project2": "Projet 2",
+    "project3": "Projet 3"
+  },
+  "contact": {
+    "title": "Nous Contacter",
+    "form": {
+      "name": "Nom",
+      "email": "E-mail",
+      "message": "Message",
+      "submit": "Envoyer"
     }
   }
 }

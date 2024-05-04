@@ -1,11 +1,20 @@
 import React from "react";
+import Header from "../../components/Header/Header";
 
-export default function layout({ children, }: { children: React.ReactNode }) {
-    return (
-        <html lang="en">
-            <body>
-                {children}
-            </body>
-        </html>
-    );
+interface LocaleLayoutProps {
+  children: React.ReactNode;
+  params: {locale: string};
 }
+
+const LocaleLayout: React.FC<LocaleLayoutProps> = ({ children, params: {locale} }) => {
+  return (
+    <html lang={locale}>
+      <body>
+        <Header lang={locale}/>
+        {children}
+      </body>
+    </html>
+  );
+}
+
+export default LocaleLayout;

@@ -1,16 +1,40 @@
 {
-  "Products": {
-    "category1": {
-      "name": "kategori 1"
-    },
-    "category2": {
-      "name": "kategori 2"
-    },
-    "category3": {
-      "name": "kategori 3"
-    },
-    "category4": {
-      "name": "kategori 4"
+  "header": {
+    "home": "Anasayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "portfolio": "Portföy",
+    "contact": "İletişim"
+  },
+  "home": {
+    "welcome": "Web sitemize hoş geldiniz!",
+    "features": "Özelliklerimiz",
+    "pricing": "Fiyatlandırma",
+    "testimonial": "Referanslar"
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "description": "Şirketimiz hakkında daha fazla bilgi edinin."
+  },
+  "services": {
+    "title": "Hizmetlerimiz",
+    "service1": "Hizmet 1",
+    "service2": "Hizmet 2",
+    "service3": "Hizmet 3"
+  },
+  "portfolio": {
+    "title": "Portföyümüz",
+    "project1": "Proje 1",
+    "project2": "Proje 2",
+    "project3": "Proje 3"
+  },
+  "contact": {
+    "title": "İletişim",
+    "form": {
+      "name": "İsim",
+      "email": "E-posta",
+      "message": "Mesaj",
+      "submit": "Gönder"
     }
   }
 }

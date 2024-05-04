@@ -1,16 +1,41 @@
 {
-	"Products": {
-		"category1": {
-			"name": "category 1"
-		},
-		"category2": {
-			"name": "category 2"
-		},
-		"category3": {
-			"name": "category 3"
-		},
-		"category4": {
-			"name": "category 4"
-		}
+	"header": {
+	  "home": "Home",
+	  "products": "Products",
+	  "services": "Services",
+	  "contact": "Contact",
+	  "about": "About"
+	},
+	"home": {
+	  "welcome": "Welcome to our website!",
+	  "features": "Our Features",
+	  "pricing": "Pricing",
+	  "testimonial": "Testimonials"
+	},
+	"about": {
+	  "title": "About Us",
+	  "description": "Learn more about our company."
+	},
+	"services": {
+	  "title": "Our Services",
+	  "service1": "Service 1",
+	  "service2": "Service 2",
+	  "service3": "Service 3"
+	},
+	"products": {
+	  "title": "Our Portfolio",
+	  "project1": "Project 1",
+	  "project2": "Project 2",
+	  "project3": "Project 3"
+	},
+	"contact": {
+	  "title": "Contact Us",
+	  "form": {
+		"name": "Name",
+		"email": "Email",
+		"message": "Message",
+		"submit": "Submit"
+	  }
 	}
-}
+  }
+  

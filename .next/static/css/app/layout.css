@@ -523,6 +523,9 @@ video {
 .mb-10 {
   margin-bottom: 2.5rem;
 }
+.flex {
+  display: flex;
+}
 .h-1\/2 {
   height: 50%;
 }
@@ -551,6 +554,9 @@ video {
 }
 .animate-wiggle {
   animation: wiggle 8s ease-in-out;
+}
+.gap-6 {
+  gap: 1.5rem;
 }
 .border-y-4 {
   border-top-width: 4px;
