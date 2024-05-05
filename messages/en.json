@@ -1,18 +1,20 @@
 {
-	"header": {
-	  "home": "Home",
-	  "products": "Products",
-	  "services": "Services",
-	  "contact": "Contact",
-	  "about": "About"
+	"HeaderLinks": {
+	  "home": {"name":"Homepage","linkedpage":"/en/"},
+	  "products": {"name":"Products","linkedpage":"/en/products"},
+	  "services": {"name":"Services","linkedpage":"/en/services"},
+	  "contact": {"name":"Contact","linkedpage":"/en/contact"},
+	  "about": {"name":"About","linkedpage":"/en/about"}
 	},
 	"home": {
+		"link":"/",
 	  "welcome": "Welcome to our website!",
 	  "features": "Our Features",
 	  "pricing": "Pricing",
 	  "testimonial": "Testimonials"
 	},
 	"about": {
+		"link":"/",
 	  "title": "About Us",
 	  "description": "Learn more about our company."
 	},
@@ -23,10 +25,10 @@
 	  "service3": "Service 3"
 	},
 	"products": {
-	  "title": "Our Portfolio",
-	  "project1": "Project 1",
-	  "project2": "Project 2",
-	  "project3": "Project 3"
+	  "product1": {"name":"Submirsable Pumps", "link":"SubmirsablePumps"},
+	  "product2": {"name":"Centrfigul Pumps", "link":"CentrfigulPumps"},
+	  "product3": {"name":"Submirsable Motors", "link":"SubmirsableMotors"},
+	  "product4": {"name":"PVC Pipes", "link":"PVCPipes"}
 	},
 	"contact": {
 	  "title": "Contact Us",

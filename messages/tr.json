@@ -22,12 +22,13 @@
     "service2": "Hizmet 2",
     "service3": "Hizmet 3"
   },
-  "portfolio": {
-    "title": "Portföyümüz",
-    "project1": "Proje 1",
-    "project2": "Proje 2",
-    "project3": "Proje 3"
-  },
+  "products": {
+    "name":"Products",
+	  "product1": {"name":"Dalgıç Pompalar", "link":"DalgıçPompalar"},
+	  "product2": {"name":"Santrifüj Pompalar", "link":"SantrifüjPompalar"},
+	  "product3": {"name":"Daldırılabilir Motorlar", "link":"DaldırılabilirMotorlar"},
+	  "product4": {"name":"PVC Borular", "link":"PVCBorular"}
+	},
   "contact": {
     "title": "İletişim",
     "form": {

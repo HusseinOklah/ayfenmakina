@@ -1,26 +1,20 @@
 // Header.tsx
 import React from 'react';
-import HeaderLink from './HeaderLink';
+import HeaderTop from './HeaderTop';
+import HeaderBottom from './HeaderBottom';
 
-interface Props {
-    lang: string;
-  }
+interface HeaderProps {
+  locale: string;
+}
 
-const Header: React.FC<Props> = (params) => {
+export default function Headers( params:HeaderProps ) {
+  
 
   return (
-    <header>
-      <nav>
-        <ul className='flex gap-6'>
-          <HeaderLink lang={params.lang} translationKey="home" linkedPage="/" />
-          <HeaderLink lang={params.lang} translationKey="products" linkedPage="/products" />
-          <HeaderLink lang={params.lang} translationKey="services" linkedPage="/services" />
-          <HeaderLink lang={params.lang} translationKey="contact" linkedPage="/contact" />
-          <HeaderLink lang={params.lang} translationKey="about" linkedPage="/about" />
-        </ul>
-      </nav>
+    <header className='w-full'>
+      <HeaderTop />
+      <HeaderBottom lang={params.locale} />
     </header>
   );
 }
 
-export default Header;

@@ -11,10 +11,5 @@ export function generateStaticParams() {
 
 export default async function LocaleLayout({children, params: {locale}}) {
     unstable_setRequestLocale(locale);
-    return (
-      <html><body>
-      {children}  
-      </body></html>
-      
-    );
+    return children
 }
