@@ -1,4 +1,22 @@
 {
+  "navigation": {
+    "homepage": {
+      "name": "Home tr",
+      "link": "/tr"
+    },
+    "products": {
+      "name": "Products tr",
+      "link": "/tr/products"
+    },
+    "solutions": {
+      "name": "Solutions tr",
+      "link": "/tr/solutions"
+    },
+    "about_us": {
+      "name": "About Us tr",
+      "link": "/tr"
+    }
+  },
   "header": {
     "home": "Anasayfa",
     "about": "Hakkımızda",
@@ -23,12 +41,24 @@
     "service3": "Hizmet 3"
   },
   "products": {
-    "name":"Products",
-	  "product1": {"name":"Dalgıç Pompalar", "link":"DalgıçPompalar"},
-	  "product2": {"name":"Santrifüj Pompalar", "link":"SantrifüjPompalar"},
-	  "product3": {"name":"Daldırılabilir Motorlar", "link":"DaldırılabilirMotorlar"},
-	  "product4": {"name":"PVC Borular", "link":"PVCBorular"}
-	},
+    "name": "Products",
+    "product1": {
+      "name": "Dalgıç Pompalar",
+      "link": "DalgıçPompalar"
+    },
+    "product2": {
+      "name": "Santrifüj Pompalar",
+      "link": "SantrifüjPompalar"
+    },
+    "product3": {
+      "name": "Daldırılabilir Motorlar",
+      "link": "DaldırılabilirMotorlar"
+    },
+    "product4": {
+      "name": "PVC Borular",
+      "link": "PVCBorular"
+    }
+  },
   "contact": {
     "title": "İletişim",
     "form": {

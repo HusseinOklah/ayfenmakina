@@ -6,7 +6,7 @@ import Swipper from "../../components/MainSlider/Swipper";
 export default function page() {
   return (
     <>
-      <Swipper />
+      {/* <Swipper /> */}
     </>
   );
 }
