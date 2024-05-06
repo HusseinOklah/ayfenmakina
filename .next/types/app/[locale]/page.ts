@@ -1,4 +1,4 @@
-// File: /workspaces/ayfenmakina/src/app/[locale]/page.tsx
+// File: C:\Users\enghi\OneDrive\Desktop\ayfenmakina\ayfenmakina\src\app\[locale]\page.tsx
 import * as entry from '../../../../src/app/[locale]/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
