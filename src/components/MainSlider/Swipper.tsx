@@ -27,7 +27,7 @@ export default function Swipper() {
   return (
     <>
       <Swiper
-        className="h-[338px] w-[1200px] bg-white"
+        className="w-full bg-white rounded-xl"
         slidesPerView={1}
         spaceBetween={30}
         loop={true}
@@ -40,7 +40,7 @@ export default function Swipper() {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation, EffectFade]}
-				effect={'fade'}
+        effect={'fade'}
       >
         <SwiperSlide className="text-center text-5 flex justify-center items-center h-full w-full">
           <Image src={image01} alt={""} />

@@ -1,7 +1,5 @@
 import React from "react";
-import Header from "../../components/Header/Header";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-import Navigator from "../../components/Navigator/Navigator";
+import Navigation from "../../components/Navigation";
 
 
 
@@ -16,10 +14,9 @@ const LocaleLayout: React.FC<LocaleLayoutProps> = ({
 }) => {
   return (
     <html lang={locale}>
-      <body className="bg-white text-base text-[#253342] font-medium tracking-[0.5px] m-0">
-        {/* <Header locale={locale} /> */}
-        <Navigator />
-        {children}
+      <body className="bg-red-800/80 text-base text-[#253342] font-medium tracking-[0.5px] m-0">
+        <Navigation />
+        <main className="container mx-auto min-h-screen pt-10">{children}</main>
       </body>
     </html>
   );

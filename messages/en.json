@@ -1,87 +1,64 @@
 {
-	"navigation": {
-		"homepage": {
-			"name": "Home",
-			"link": "/en"
+	"LocaleSwitcher": {
+		"label": "Change language",
+		"locale": "{locale, select, fr {French} de {Deutsch} tr {Turkish} ar {Arabic} en {English} other {Unknown}}"
+	},
+	"Navigation": {
+		"home": {
+			"name": "Home"
 		},
 		"products": {
 			"name": "Products",
-			"link": "/en/products"
+			"gategories": {
+				"cat_1": {
+					"id": 0,
+					"name": "Submersiable Motors",
+					"description": "Submersiable Motors Description",
+					"ImgLink": "/img/products/cat_1.jpg"
+				},
+				"cat_2": {
+					"id": 1,
+					"name": "Submersiable Pumps",
+					"description": "Submersiable Pumps Description",
+					"ImgLink": "/img/products/cat_2.jpg"
+				},
+				"cat_3": {
+					"id": 2,
+					"name": "Centrifugal Pumps",
+					"description": "Centrifugal Pumps Description",
+					"ImgLink": "/img/products/cat_3.jpg"
+				},
+				"cat_4": {
+					"id": 3,
+					"name": "Self-Pump",
+					"description": "Self-Pump Description",
+					"ImgLink": "/img/products/cat_4.jpg"
+				},
+				"cat_5": {
+					"id": 4,
+					"name": "Pipes",
+					"description": "Pipes Description",
+					"ImgLink": "/img/products/cat_5.jpg"
+				},
+				"cat_6": {
+					"id": 5,
+					"name": "Accessories",
+					"description": "Accessories Description",
+					"ImgLink": "/img/products/cat_6.jpg"
+				}
+			}
 		},
 		"solutions": {
-			"name": "Solutions",
-			"link": "/en/solutions"
+			"name": "Solutions"
+		},
+		"projects": {
+			"name": "Projects"
+		},
+		"contact_us": {
+			"name": "Contact Us"
 		},
 		"about_us": {
-			"name": "About Us",
-			"link": "/en"
-		}
-	},
-	"HeaderLinks": {
-		"home": {
-			"name": "Homepage",
-			"linkedpage": "/en/"
-		},
-		"products": {
-			"name": "Products",
-			"linkedpage": "/en/products"
-		},
-		"services": {
-			"name": "Services",
-			"linkedpage": "/en/services"
-		},
-		"contact": {
-			"name": "Contact",
-			"linkedpage": "/en/contact"
-		},
-		"about": {
-			"name": "About",
-			"linkedpage": "/en/about"
-		}
-	},
-	"home": {
-		"link": "/",
-		"welcome": "Welcome to our website!",
-		"features": "Our Features",
-		"pricing": "Pricing",
-		"testimonial": "Testimonials"
-	},
-	"about": {
-		"link": "/",
-		"title": "About Us",
-		"description": "Learn more about our company."
-	},
-	"services": {
-		"title": "Our Services",
-		"service1": "Service 1",
-		"service2": "Service 2",
-		"service3": "Service 3"
-	},
-	"products": {
-		"product1": {
-			"name": "Submirsable Pumps",
-			"link": "SubmirsablePumps"
-		},
-		"product2": {
-			"name": "Centrfigul Pumps",
-			"link": "CentrfigulPumps"
-		},
-		"product3": {
-			"name": "Submirsable Motors",
-			"link": "SubmirsableMotors"
-		},
-		"product4": {
-			"name": "PVC Pipes",
-			"link": "PVCPipes"
-		}
-	},
-	"contact": {
-		"title": "Contact Us",
-		"form": {
-			"name": "Name",
-			"email": "Email",
-			"message": "Message",
-			"submit": "Submit"
+			"name": "About Us"
 		}
 	}
 }

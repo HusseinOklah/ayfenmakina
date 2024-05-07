@@ -10,7 +10,11 @@ export const locales = ['en', 'fr', 'de', 'tr', 'ar'] as const;
 
 export const pathnames = {
     '/': '/',
-    '/products': '/products'
+    '/products': '/products',
+    '/solutions': '/solutions',
+    '/projects': '/projects',
+    '/contact_us': 'contact_us',
+    '/about_us': 'about_us'
 } satisfies Pathnames<typeof locales>;
 
 // Use the default: `always`
