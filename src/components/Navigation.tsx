@@ -29,7 +29,7 @@ export default function Navigation() {
                         <li><NavigationLink href="/">{t('home.name')}</NavigationLink></li>
                         <li className='group'>
                             <NavigationLink href="/products">{t('products.name')}</NavigationLink>
-                            <div className='hidden group-hover:block absolute h-96 w-full left-0 pt-5'>
+                            <div className='hidden group-hover:block absolute h-96 w-full left-0 pt-5 z-50'>
                                 <div className='bg-blue-800 h-full w-full'>
                                     <ul className='flex flex-row'>
                                         <li><NavigationLink href="/solutions">{t('solutions.name')}</NavigationLink></li>

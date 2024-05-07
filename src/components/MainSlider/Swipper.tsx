@@ -27,7 +27,7 @@ export default function Swipper() {
   return (
     <>
       <Swiper
-        className="w-full bg-white rounded-xl"
+        className="w-full bg-white rounded-xl z-10"
         slidesPerView={1}
         spaceBetween={30}
         loop={true}
