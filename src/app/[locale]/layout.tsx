@@ -1,5 +1,6 @@
 import React from "react";
-import Navigation from "../../components/Navigation";
+import Navigation from "../../components/Header/Navigation";
+import Footer from "../../components/Footer/Footer";
 
 
 
@@ -14,9 +15,10 @@ const LocaleLayout: React.FC<LocaleLayoutProps> = ({
 }) => {
   return (
     <html lang={locale}>
-      <body className="bg-red-800/80 text-base text-[#253342] font-medium tracking-[0.5px] m-0">
+      <body className="bg-primary-50 min-h-screen text-base text-primary-800 font-medium m-0">
         <Navigation />
-        <main className="container mx-auto min-h-screen pt-10">{children}</main>
+        <main className="container mx-auto pt-10">{children}</main>
+        <Footer />
       </body>
     </html>
   );
