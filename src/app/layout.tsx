@@ -1,5 +1,4 @@
-import React from "react";
-import "../../src/main.css"
+import "./main.css"
 import { unstable_setRequestLocale } from 'next-intl/server';
 
 // Can be imported from a shared config
