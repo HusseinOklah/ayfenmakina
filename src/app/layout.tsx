@@ -2,7 +2,7 @@ import "./main.css"
 import { unstable_setRequestLocale } from 'next-intl/server';
 
 // Can be imported from a shared config
-const locales = ['en', 'fr', 'ar', 'tr'];
+const locales = ['en', 'fr', 'ar', 'tr',];
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
