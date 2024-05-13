@@ -6,6 +6,14 @@ export const content = [
 ];
 export const theme = {
   extend: {
+    screens: {
+      'mobile': '320px',
+      'tablet': '768px',
+      'laptop': '1024px',
+      'laptopL': '1440px',
+      '4k': '2560px',
+    },
+
     colors: {
       'primary': {
         '50': '#fafafa',

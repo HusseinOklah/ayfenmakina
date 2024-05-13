@@ -8,7 +8,7 @@ export default async function ProductsSquereCard(props: { id: string; img: strin
 	const t = await getTranslations('ProductList')
 	return (
 		<div className="w-full">
-			<ul className="">
+			<ul className="w-full">
 				<li className="group w-full h-[350px] relative border-2 rounded-lg overflow-hidden">
 					<div className="h-full w-full flex justify-center items-center pt-8 group-hover:opacity-10">
 						<Image src={props.img} alt="" width={350} height={350} style={{ objectFit: "fill" }} />

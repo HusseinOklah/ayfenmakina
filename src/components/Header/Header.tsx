@@ -15,7 +15,7 @@ export default function Navigation(locale: string) {
   return (
     <header className="text-primary-200 sticky top-0 bg-primary-800 border-b-4 border-b-secondry-600 z-50">
       <HeaderTop />
-      <HeaderBottom lang={locale} />
+      <HeaderBottom />
     </header>
   );
 }

@@ -4,18 +4,16 @@ import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import NavigationLink from './NavigationLink';
 import ProductsDropMenu from './ProductsDropMenu';
-interface HeaderProps {
-	lang: string;
-}
 
-export default function HeaderBottom({ lang: string }) {
-	const t = useTranslations('HeaderLinks')
+
+export default function HeaderBottom() {
+	const t = useTranslations('Navigation')
 	return (
-		<nav className="container mx-auto flex justify-between items-center">
+		<nav className="relative container mx-auto flex justify-between items-center">
 			<div className='float-start shrink m-2 '>
 				<Image src={'/logo.jpg'} alt={'logo'} width={180} height={80} />
 			</div>
-			<div className='float-start grow relative'>
+			<div className='float-start grow'>
 				<ul className='flex flex-row'>
 					<li><NavigationLink href="/">{t('home.name')}</NavigationLink></li>
 					<li className='group'>

@@ -7,8 +7,8 @@ import Image from "next/image";
 export default function ProductsDropMenu() {
 	const t = useTranslations('ProductList')
 	return (
-		<div className='absolute hidden group-hover:block -left-10 z-20 bg-transparent pt-[20px] w-[1100px] h-[520px]'>
-			<div className="bg-black/65 rounded-lg">
+		<div className='absolute hidden group-hover:block left-0 z-20 bg-transparent pt-[14px] w-[1100px] min-h-screen'>
+			<div className="bg-black/65">
 				<ul className='relative  h-[500px] w-[400px] py-1 pl-1'>
 					{Products.map((category) =>
 						<li key={category.id} className="group/category bg-transparent py-2 hover:bg-red-800 rounded-md">

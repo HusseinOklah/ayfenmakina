@@ -9,7 +9,7 @@ export default async function ProductsSwipper(props: { type?: string }) {
         {props.type === 'wide' ?
           Products.map((group, index) => <ProductsBigCard key={index} id={group.id} img={group.img} subChildren={group.subChildren} />)
           :
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
             {Products.map((group, index) => <ProductsSquereCard key={index} id={group.id} img={group.img} subChildren={group.subChildren} />)}
           </div>
         }
