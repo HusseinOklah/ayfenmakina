@@ -61,12 +61,12 @@ export const Products: Category[] = [
           {
             id: "010202",
             name: "name",
-            img: "/img/products/img_1.png"
+            img: "/img/products/010201.png"
           },
           {
             id: "010203",
             name: "name",
-            img: "/img/products/img_1.png"
+            img: "/img/products/010201.png"
           }
         ]
       },
@@ -77,7 +77,7 @@ export const Products: Category[] = [
           {
             id: "010301",
             name: "name",
-            img: "/img/products/img_3.png"
+            img: "/img/products/010201.png"
           }
         ]
       }

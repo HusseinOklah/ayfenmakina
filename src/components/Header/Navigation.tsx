@@ -53,7 +53,6 @@ export default function Navigation() {
                     </ul>
                 </div>
                 <div className='flex justify-center items-center mr-4'>
-                    {/* {en.Navigation.map((e) => e.about_us)} */}
                 </div>
             </nav>
         </header>

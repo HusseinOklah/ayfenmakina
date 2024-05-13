@@ -7,10 +7,10 @@ export default async function ProductsSwipper(props: { type?: string }) {
       <h1 className="text-[30px]/[48px]">Product Groups</h1>
       <div className="relative">
         {props.type === 'wide' ?
-          Products.map((group) => <ProductsBigCard id={group.id} img={group.img} subChildren={group.subChildren} />)
+          Products.map((group, index) => <ProductsBigCard key={index} id={group.id} img={group.img} subChildren={group.subChildren} />)
           :
           <div className="grid grid-cols-3 gap-4">
-            {Products.map((group) => <ProductsSquereCard id={group.id} img={group.img} subChildren={group.subChildren} />)}
+            {Products.map((group, index) => <ProductsSquereCard key={index} id={group.id} img={group.img} subChildren={group.subChildren} />)}
           </div>
         }
       </div>
