@@ -6,8 +6,7 @@ export default function page() {
   return (
     <>
       <Swipper />
-      <ProductsSection />
-
+      <ProductsSection props={'plate'} />
     </>
   );
 }

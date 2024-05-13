@@ -1,27 +1,24 @@
 import React from "react";
 import Navigation from "../../components/Header/Navigation";
 import Footer from "../../components/Footer/Footer";
-
-
+import PageWrapper from "../../components/Wrappers/PageWrapper";
+import MainWrapper from "../../components/Wrappers/MainWrapper";
+import Header from "../../components/Header/Header";
 
 interface LocaleLayoutProps {
   children: React.ReactNode;
   params: { locale: string };
 }
 
-const LocaleLayout: React.FC<LocaleLayoutProps> = ({
-  children,
-  params: { locale },
-}) => {
+export default function LocaleLayout({ children, params: { locale } }: LocaleLayoutProps) {
   return (
     <html lang={locale}>
-      <body className="bg-primary-50 min-h-screen text-base text-primary-800 font-medium m-0">
+      <PageWrapper>
         <Navigation />
-        <main className="container mx-auto pt-10">{children}</main>
+        {/* <Header lang={locale} /> */}
+        <MainWrapper>{children}</MainWrapper>
         <Footer />
-      </body>
+      </PageWrapper>
     </html>
-  );
-};
-
-export default LocaleLayout;
+  )
+}

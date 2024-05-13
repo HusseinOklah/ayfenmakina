@@ -1,40 +1,33 @@
-import { FaPhoneVolume, FaEnvelope, FaGlobe, FaEllipsisVertical, FaXTwitter, FaTelegram } from "react-icons/fa6";
+import { FaPhoneVolume, FaEnvelope, FaXTwitter, FaTelegram } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
+import Link from "next/link";
+import LocaleSwitcher from "./LocaleSwitcher";
 
 
 export default function HeaderTop() {
   return (
-    <div className='w-full bg-[#9f2323] text-white text-base'>
-      <div className='container mx-auto '>
-        <ul className='flex flex-row justify-between items-center text-center'>
-          <li className='flex-shrink float-left flex flex-row justify-between items-center px-2 gap-2'>
-            <FaEnvelope />
-            <p>eng.hio1978@gmail.com</p>
-          </li>
-          <li className='text-blue-300'><FaEllipsisVertical /></li>
-          <li className='flex-shrink float-left flex flex-row justify-between items-center px-2 gap-2'>
-            <FaPhoneVolume />
-            <p>+90 535 635 65303</p>
-          </li>
-          <li className='flex-grow'></li>
-          <li className='flex-shrink float-right mx-1'>Search</li>
-          <li className='text-blue-300'><FaEllipsisVertical /></li>
-          <li className='flex-shrink float-right mx-1'><FaFacebookSquare /></li>
-          <li className='flex-shrink float-right mx-1'><FaXTwitter /></li>
-          <li className='flex-shrink float-right mx-1'><FaTelegram /></li>
-          <li className='text-blue-300'><FaEllipsisVertical /></li>
-          <li className='flex-shrink float-right mx-1 relative'>
-            <FaGlobe />
-            <div className='absolute hidden bg-blue-400 left-0 pt-2 w-12'>
-              <label className=''>
-                <option value="en">En</option>
-                <option value="tr">TR</option>
-              </label>
+    <div className='container mx-auto text-sm border-b flex flex-row justify-between'>
+                <div className="flex flex-row py-1">
+                    <div className='mx-3 first:ml-0 last:mr-0 flex flex-row justify-between items-center gap-1'>
+                        <FaPhoneVolume />
+                        <span>+90 535 635 6533</span>
+                    </div>
+                    <div className='mx-3 first:ml-0 last:mr-0 flex flex-row justify-between items-center gap-1'>
+                        <FaEnvelope />
+                        <span>eng.hio1978@gmail.com</span>
+                    </div>
+                </div>
+                <div className="flex flex-row py-1">
+                    <div className='mx-3 first:ml-0 last:mr-0 hidden'>
+                        Search Area
+                    </div>
+                    <div className='mx-3 first:ml-0 last:mr-0 flex flex-row justify-between items-center gap-2'>
+                        <Link className='hover:outline' href={'https://www.facebook.com/hussein.oklah'} target='_blank'><FaFacebookSquare /></Link>
+                        <Link className='hover:outline' href={'/'}><FaXTwitter /></Link>
+                        <Link className='hover:outline' href={'/'}><FaTelegram /></Link>
+                    </div>
+                    <div className='mx-3 first:ml-0 last:mr-0 '><LocaleSwitcher /></div>
+                </div>
             </div>
-
-          </li>
-        </ul>
-      </div>
-    </div>
   );
 }

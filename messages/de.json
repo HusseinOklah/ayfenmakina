@@ -98,5 +98,10 @@
     "about_us": {
       "name": "Über uns"
     }
+  },
+  "NotFound": {
+    "title": "Nicht gefunden",
+    "description": "Sie fordern eine Seite an, die sich im Aufbau befindet, bitte besuchen Sie sie ein anderes Mal",
+    "button": "Rückkehr nach Hause"
   }
 }

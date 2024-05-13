@@ -1,6 +1,6 @@
 
 import React from "react";
-import SectionWraper from "../Wrappers/SectionWraper";
+import SectionWraper from "../Wrappers/SectionWrapper";
 import ProductsSwipper from "../Products/ProductsSwipper";
 
 export default function ProductsCategories() {

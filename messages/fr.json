@@ -98,5 +98,10 @@
     "about_us": {
       "name": "À propos de nous"
     }
+  },
+  "NotFound": {
+    "title": "",
+    "description": "",
+    "button": ""
   }
 }

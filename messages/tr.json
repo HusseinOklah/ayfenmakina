@@ -98,5 +98,10 @@
     "about_us": {
       "name": "About Us"
     }
+  },
+  "NotFound": {
+    "title": "Bulunamadı",
+    "description": "Şu anda yapım aşamasında olan bir sayfa talep ediyorsunuz, lütfen başka bir zaman ziyaret edin",
+    "button": "Any Sayfa Dönüş"
   }
 }

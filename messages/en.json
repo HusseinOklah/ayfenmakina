@@ -92,5 +92,10 @@
     "about_us": {
       "name": "About Us"
     }
+  },
+  "NotFound": {
+    "title": "Not Found",
+    "description": "You request a page under construction now please visit it another time",
+    "button": "Return Home"
   }
 }

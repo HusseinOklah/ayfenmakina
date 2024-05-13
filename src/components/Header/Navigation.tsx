@@ -11,7 +11,7 @@ export default function Navigation() {
     const t = useTranslations('Navigation');
 
     return (
-        <div className="text-primary-50 sticky top-0 bg-primary-700 z-50">
+        <header className="text-primary-200 sticky top-0 bg-primary-800 border-b-4 border-secondry-600 z-50">
             <div className='container mx-auto text-sm border-b flex flex-row justify-between'>
                 <div className="flex flex-row py-1">
                     <div className='mx-3 first:ml-0 last:mr-0 flex flex-row justify-between items-center gap-1'>
@@ -49,13 +49,13 @@ export default function Navigation() {
                         <li><NavigationLink href="/solutions">{t('solutions.name')}</NavigationLink></li>
                         <li><NavigationLink href="/projects">{t('projects.name')}</NavigationLink></li>
                         <li><NavigationLink href="/contact_us">{t('contact_us.name')}</NavigationLink></li>
-                        <li><NavigationLink href="/contact_us">{t('about_us.name')}</NavigationLink></li>
+                        <li><NavigationLink href="/about_us">{t('about_us.name')}</NavigationLink></li>
                     </ul>
                 </div>
                 <div className='flex justify-center items-center mr-4'>
                     {/* {en.Navigation.map((e) => e.about_us)} */}
                 </div>
             </nav>
-        </div>
+        </header>
     );
 }

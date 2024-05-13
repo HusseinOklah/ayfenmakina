@@ -1,12 +1,12 @@
 
 import React from "react";
-import SectionWraper from "../Wrappers/SectionWraper";
+import SectionWrapper from "../Wrappers/SectionWrapper";
 import ProductsSwipper from "./ProductsSwipper";
 
-export default function ProductsSection() {
+export default function ProductsSection({ props }) {
     return (
-        <SectionWraper>
-            <ProductsSwipper />
-        </SectionWraper>
+        <SectionWrapper>
+            {props.kind === 'plate' ? <ProductsSwipper /> : <ProductsSwipper />}
+        </SectionWrapper>
     );
 }
