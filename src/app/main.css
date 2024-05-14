@@ -10,3 +10,16 @@
     font-style: normal;
   }
 }
+
+@layer components {
+  .svg {
+    fill: rgb(160, 50, 51);
+    font-family: Arial, sans-serif;
+    font-size: 29px;
+    font-weight: 900;
+    text-transform: capitalize;
+    white-space: pre;
+    transform-box: fill-box;
+    transform-origin: 50% 50%;
+  }
+}

@@ -1,5 +1,4 @@
 import React from "react";
-import Navigation from "../../components/Header/Navigation";
 import Footer from "../../components/Footer/Footer";
 import PageWrapper from "../../components/Wrappers/PageWrapper";
 import MainWrapper from "../../components/Wrappers/MainWrapper";
@@ -14,7 +13,7 @@ export default function LocaleLayout({ children, params: { locale } }: LocaleLay
   return (
     <html lang={locale}>
       <PageWrapper>
-        <Navigation />
+        <Header />
         {/* <Header lang={locale} /> */}
         <MainWrapper>{children}</MainWrapper>
         <Footer />

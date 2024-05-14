@@ -22,10 +22,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
-    "/[locale]/solutions/page": [
+    "/[locale]/products/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/solutions/page.js"
+      "static/chunks/app/[locale]/products/page.js"
+    ],
+    "/[locale]/products/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/products/layout.js"
     ]
   }
 }

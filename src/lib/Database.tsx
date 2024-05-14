@@ -30,6 +30,7 @@ interface Specification {
 export const Products: Category[] = [
   {
     id: "010000",
+    name: "Gategroy 1",
     img: "/img/products/010000.png",
     subChildren: [
       {
@@ -52,6 +53,7 @@ export const Products: Category[] = [
       {
         id: "010200",
         name: "Centrifugal Pumps",
+        img: "/img/products/010101.png",
         product: [
           {
             id: "010201",

@@ -4,15 +4,17 @@ import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import NavigationLink from './NavigationLink';
 import ProductsDropMenu from './ProductsDropMenu';
+import Logo from './Logo';
 
 
 export default function HeaderBottom() {
 	const t = useTranslations('Navigation')
 	return (
 		<nav className="relative container mx-auto flex justify-between items-center">
-			<div className='float-start shrink m-2 '>
-				<Image src={'/logo.jpg'} alt={'logo'} width={180} height={80} />
+			<div className='h-4 flex'>
+				<Logo />
 			</div>
+
 			<div className='float-start grow'>
 				<ul className='flex flex-row'>
 					<li><NavigationLink href="/">{t('home.name')}</NavigationLink></li>

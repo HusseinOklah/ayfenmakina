@@ -1,10 +1,13 @@
-import { color } from 'framer-motion';
+import { animate, color } from 'framer-motion';
 
 /** @type {import('tailwindcss').Config} */
 export const content = [
   "./src/**/*.{js,ts,jsx,tsx,mdx}",
 ];
 export const theme = {
+  animate: {
+    span: 'span 8s ease-linear infinity'
+  },
   extend: {
     screens: {
       'mobile': '320px',
@@ -13,7 +16,13 @@ export const theme = {
       'laptopL': '1440px',
       '4k': '2560px',
     },
-
+    container: {
+      'mobile': '320px',
+      'tablet': '760px',
+      'laptop': '1000px',
+      'laptopL': '1400px',
+      '4k': '2500px',
+    },
     colors: {
       'primary': {
         '50': '#fafafa',
@@ -44,6 +53,7 @@ export const theme = {
     },
     animation: {
       wiggle: 'wiggle 8s ease-in-out',
+      'spin-slow': 'spin 8s linear infinite',
     },
     keyframes: {
       wiggle: {
